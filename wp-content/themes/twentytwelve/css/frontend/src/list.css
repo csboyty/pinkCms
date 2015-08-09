@@ -1,0 +1,135 @@
+/**
+*lists
+*/
+/*首页新闻*/
+.list{
+    width: 96%;
+    margin: auto;
+    border-top: 1px dashed #0db3c7;
+    border-bottom: 1px dashed #0db3c7;
+    font-size: 0px;
+}
+.list li{
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-bottom: 1px dashed #0db3c7;
+}
+.list li:last-child{
+    border: none;
+}
+.list li a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #999;
+}
+.list li .title{
+    margin: 0px 180px 0px 0px;
+}
+.list li .date{
+    float: right;
+}
+.list li .sports{
+    float: right;
+    margin-right: 65px;
+}
+.list li:hover .title,.list li:hover .date{
+    color: #0db3c7;
+}
+/*底部*/
+.list1{
+    width: 96%;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+    font-size: 0px;
+    padding-bottom: 20px;
+}
+.list1 li{
+    width: 26%;
+    margin:0px 3.66%;
+    color: #fff;
+    font-size: 0px;
+}
+.list1 li .title{
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+
+}
+.list1 li:first-child+li .title{
+    text-align: center;
+}
+.list1 li img{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid #fff;
+}
+.list1 li .intro{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    width: 45%;
+    margin-left: 4%;
+    margin-top: 20px;
+}
+.list1 li .txt{
+    font-size: 14px;
+
+}
+/*赛事页*/
+.list3 li{
+    border-top:1px dashed #ccc;
+    padding: 20px 15% 20px 5%;
+    display: block;
+    font-size: 0px;
+}
+.list3 li a{
+    display: block;
+    position: relative;
+}
+.list3 li .thumb{
+    width: 10%;
+    height: auto;
+}
+.list3 li .info{
+    position: absolute;
+    left:15%;
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+}
+.list3 li .titleContainer{
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.list3 li .title{
+    width: 60%;
+    margin: 0px;
+}
+.list3 li .status{
+    float: right;
+    font-size: 14px;
+    line-height: 28px;
+}
+.list3 li .intro{
+    font-size: 14px;
+    color: #999;
+    display: inline-block;
+    margin: 10px 5% 5px 0px;
+}
+.list3 li .intro .introTxtLabel{
+    vertical-align: top;
+}
+.list3 li .intro .introTxt{
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+.list3 li:hover .title{
+    color: #0db3c7;
+}
