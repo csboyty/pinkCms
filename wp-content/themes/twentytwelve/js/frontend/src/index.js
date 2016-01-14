@@ -11,7 +11,7 @@ var index=(function(){
                 method:"get",
                 data:{
                     limit:5,
-                    stick:true,
+                    stick:1,
                     offset:0
                 },
                 success:function(data){

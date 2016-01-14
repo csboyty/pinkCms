@@ -11,7 +11,7 @@ var common=(function(){
                         $("#profile").attr("src",data.user.user_profile);
                         $("#name").text(data.user.fullname);
                         //$("#messageCount").text(data.user.messageCount);
-                        $("#userMenu a").attr("href",function(value){
+                        $("#userMenu a").attr("href",function(index,value){
                             return value.replace("${userId}",data.user.id);
                         });
                         $("#userInfo").removeClass("hidden");

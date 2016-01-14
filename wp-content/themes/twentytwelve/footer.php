@@ -36,21 +36,22 @@
 
 <div class="footer">
     <ul class="list1">
-        <li>
-            <h3 class="title">App二维码</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/frontend/app/erweima.jpg">
-            <p class="intro">关于二维码的说明</p>
-            </li>
-        <li>
+        <li style="width: 240px">
+            <!--<h3 class="title">App二维码</h3>-->
+            <img src="<?php echo home_url(); ?>/app/static/images/frontend/app/app.png">
+            <p class="intro">扫一扫，下载手机App</p>
+        </li>
+        <li style="width: 400px">
             <h3 class="title">联系我们/Contact Us</h3>
-            <p class="txt">邮箱：shizs@shizs.com</p>
-            <p class="txt">电话：13417414129 方鉴进&nbsp;&nbsp;&nbsp;13614516930 赵罡</p>
+            <p class="txt">公司邮箱：pinksp@shizs.com</p>
+            <p class="txt">方&nbsp;&nbsp;鉴&nbsp;&nbsp;进：jianjin@shizs.com&nbsp;&nbsp;&nbsp;&nbsp;13417414129</p>
+            <p class="txt">赵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;罡：zhaog@shizs.com&nbsp;&nbsp;&nbsp;&nbsp;13614516930 </p>
             <!--<address  class="txt">地址：深圳市</address>-->
-            </li>
-        <li>
-            <h3 class="title">微信公众号</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/frontend/app/erweima.jpg">
-            <p class="intro">关于二维码的说明</p>
+        </li>
+        <li style="width: 240px">
+            <!--<h3 class="title">微信公众号</h3>-->
+            <img src="<?php echo home_url(); ?>/app/static/images/frontend/app/weixin.jpg">
+            <p class="intro">扫一扫，关注微信公众号</p>
         </li>
     </ul>
     <p class="copyRight">&copy;Right 石竹运动</p>

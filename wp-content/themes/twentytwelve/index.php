@@ -86,14 +86,14 @@
         </ul>
         <a class="more" href="<?php echo $baseUrl; ?>user/competitions/">查看更多</a>
     </div>
-    <div class="section">
+   <!-- <div class="section">
         <div class="titles titles1">
             <h1 class="title">万余场地，等你来战</h1>
             <h3 class="subTitle">找到你所需要的场地</h3>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/frontend/app/banner2.jpg">
-        <a class="more more1" href="<?php echo $baseUrl; ?>user/sites/">查看更多</a>
-    </div>
+        <img src="<?php /*echo get_template_directory_uri(); */?>/images/frontend/app/banner2.jpg">
+        <a class="more more1" href="<?php /*echo $baseUrl; */?>user/sites/">查看更多</a>
+    </div>-->
     <div class="section">
         <div class="titles">
             <h1 class="title">公司新闻</h1>

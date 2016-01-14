@@ -28,7 +28,7 @@ $baseUrl= home_url()."/app/";
 <div class="container">
 <div class="header">
     <h1 class="logo">
-        <a href="<?php echo home_url(); ?>"><?php echo get_bloginfo("name"); ?></a>
+        <a href="<?php echo home_url(); ?>/app/login"><?php echo get_bloginfo("name"); ?></a>
     </h1>
     <?php wp_nav_menu(); ?>
     <ul class="menu1" id="loginMenu">

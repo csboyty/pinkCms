@@ -57,7 +57,7 @@ img{
     width:0;
     height:0;
     border:10px solid;
-    border-color:#ccc #ffffff #ffffff #ffffff;
+    border-color:#fff #0db3c7 #0db3c7 #0db3c7;
     font-size: 0px;
 }
 .noData{
@@ -91,7 +91,6 @@ img{
     margin: auto;
     overflow: hidden;
     min-height: 400px;
-    background: #f7f8f8;
 }
 .container1{
     background: #fff;
@@ -99,7 +98,7 @@ img{
 .header{
     height: 58px;
     position: relative;
-    background: #fff;
+    background: #0db3c7;
 }
 
 /**
@@ -195,10 +194,10 @@ img{
 * menus
 */
 .menu{
-    height: 48px;
+    height: 100%;
     position: absolute;
     left: 100px;
-    top:5px;
+    top:0px;
     font-size: 0px;
 }
 .menu li{
@@ -206,22 +205,18 @@ img{
 }
 .menu li a{
     font-size: 18px;
-    color: #999;
-    line-height: 48px;
+    color: #fff;
+    line-height: 58px;
     height: 100%;
-    padding: 0px 30px;
+    padding: 0px 20px;
     display: block;
 }
 .menu li a:hover{
-    color: #0db3c7;
-}
-.menu .current-menu-item  a{
-    background: #0db3c7;
     color: #fff;
+    background: rgba(215,236,242,0.3);
 }
 .menu li a.active{
-    background: #0db3c7;
-    color: #fff;
+    background: rgba(215,236,242,0.3);
 }
 /*login menu*/
 .menu1{
@@ -236,9 +231,10 @@ img{
 .menu1 li a{
     font-size: 16px;
     padding:0px 10px 0px 10px;
+    color: #fff;
 }
 .menu1 li a:hover{
-    color: #0db3c7;
+    color: #fff;
 }
 .menu1 li:first-child a{
     border-right:1px solid #ccc;
@@ -292,6 +288,7 @@ img{
     width: 60px;
     display: inline-block;
     vertical-align: middle;
+    color: #fff;
 }
 .userInfo .info .profile{
     height: 30px;
@@ -344,13 +341,14 @@ img{
 * footer
 */
 .footer{
-    background: #000;
-    padding: 20px 0px;
+    background: #f9f9f9;
+    padding: 20px 0px 0px 0px;
 }
 .footer .copyRight{
-    color: #fff;
+    color: #1a1a1a;
     font-size: 14px;
     text-align: center;
+    margin: 10px 0px 0px 0px;
 }
 
 
